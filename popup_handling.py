@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 # agree to terms and condition popup window
 def terms_and_conditions(driver):
     try:
-        terms = driver.find_element(By.XPATH, "//*[@id='app']/div[3]/div/button")
+        terms = driver.find_element(By.XPATH, "Path to object")
         actions = ActionChains(driver)
         actions.move_to_element(terms).perform()
         terms.click()

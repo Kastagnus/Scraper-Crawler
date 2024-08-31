@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 
 
 # driver configurations
-driver_path = 'C:\\Users\\ucha9\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe'
+driver_path = 'Your path to webdriver'
 service = Service(driver_path)
 options = Options()
 options.add_argument("--headless")

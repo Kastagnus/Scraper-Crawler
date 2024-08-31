@@ -63,7 +63,7 @@ def scrape_it(driver, website, num_of_pages, starting_page):
                 print(f"Couldn't load listings on page {k}, trying next page... ")
                 break
         if len(posts) > 0:
-            append_data_to_excel("myauto.xlsx", posts)
+            append_data_to_excel("myfile.xlsx", posts)
             print(f'{len(posts)} item from page number {k} loaded')
         else:
             print(f"No posts were retrieved on page {k}")
